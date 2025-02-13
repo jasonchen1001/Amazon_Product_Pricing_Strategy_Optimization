@@ -1,15 +1,25 @@
+# 基础依赖 base dependencies
 pandas
 numpy
+streamlit>=1.0.0
+plotly>=5.3.0
+nltk>=3.6.0
+wordcloud>=1.8.0
+
+# 机器学习相关 machine learning related
 scikit-learn
-textblob
+xgboost
+lightgbm>=3.3.0
+
+# 数据可视化 data visualization
 matplotlib
 seaborn
-streamlit
-plotly
-tabulate
-wordcloud
-statsmodels
-nltk
-openai
-tqdm
+
+# 其他工具 other tools
+python-dotenv>=0.19.0
+textblob
+tabulate>=0.8.0
+statsmodels>=0.12.0
+openai>=1.0.0
+tqdm>=4.60.0
 
